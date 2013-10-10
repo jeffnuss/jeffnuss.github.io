@@ -4,7 +4,7 @@
   <title><![CDATA[My Blog]]></title>
   <link href="http://jeffnuss.github.io/atom.xml" rel="self"/>
   <link href="http://jeffnuss.github.io/"/>
-  <updated>2013-10-09T21:31:37-06:00</updated>
+  <updated>2013-10-09T21:39:21-06:00</updated>
   <id>http://jeffnuss.github.io/</id>
   <author>
     <name><![CDATA[Jeff Nuss]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://jeffnuss.github.io/blog/2013/10/09/test/"/>
+    <updated>2013-10-09T21:32:00-06:00</updated>
+    <id>http://jeffnuss.github.io/blog/2013/10/09/test</id>
+    <content type="html"><![CDATA[<p>Hello world. This is a cool post.</p>
+]]></content>
+  </entry>
   
 </feed>
