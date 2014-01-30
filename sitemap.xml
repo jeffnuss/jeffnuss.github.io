@@ -1,43 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/</loc>
+        <loc>http://blog.jeffnuss.com/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/</loc>
         <lastmod>2014-01-30T01:47:38-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/blog/archives/</loc>
+        <loc>http://blog.jeffnuss.com/blog/archives/</loc>
         <lastmod>2014-01-30T01:47:38-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/</loc>
+        <loc>http://blog.jeffnuss.com/</loc>
         <lastmod>2014-01-30T01:47:38-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/javascripts/libs/bootstrap-3.0.0/components.html</loc>
+        <loc>http://blog.jeffnuss.com/javascripts/libs/bootstrap-3.0.0/components.html</loc>
         <lastmod>2014-01-29T00:56:18-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/javascripts/libs/bootstrap-3.0.0/css.html</loc>
+        <loc>http://blog.jeffnuss.com/javascripts/libs/bootstrap-3.0.0/css.html</loc>
         <lastmod>2014-01-29T00:56:18-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/javascripts/libs/bootstrap-3.0.0/customize.html</loc>
+        <loc>http://blog.jeffnuss.com/javascripts/libs/bootstrap-3.0.0/customize.html</loc>
         <lastmod>2014-01-29T00:56:18-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/javascripts/libs/bootstrap-3.0.0/getting-started.html</loc>
+        <loc>http://blog.jeffnuss.com/javascripts/libs/bootstrap-3.0.0/getting-started.html</loc>
         <lastmod>2014-01-29T00:56:18-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/javascripts/libs/bootstrap-3.0.0/</loc>
+        <loc>http://blog.jeffnuss.com/javascripts/libs/bootstrap-3.0.0/</loc>
         <lastmod>2014-01-30T01:47:38-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/javascripts/libs/bootstrap-3.0.0/javascript.html</loc>
+        <loc>http://blog.jeffnuss.com/javascripts/libs/bootstrap-3.0.0/javascript.html</loc>
         <lastmod>2014-01-29T00:56:18-07:00</lastmod>
     </url>
     <url>
-        <loc>http://jeffnuss.github.io/robots.txt</loc>
+        <loc>http://blog.jeffnuss.com/robots.txt</loc>
         <lastmod>2014-01-29T00:56:18-07:00</lastmod>
     </url>
 </urlset>

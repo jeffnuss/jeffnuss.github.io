@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: crypto | Jeff's Blog]]></title>
-  <link href="http://jeffnuss.github.io/categories/crypto/atom.xml" rel="self"/>
-  <link href="http://jeffnuss.github.io/"/>
-  <updated>2014-01-30T01:54:42-07:00</updated>
-  <id>http://jeffnuss.github.io/</id>
+  <link href="http://blog.jeffnuss.com/categories/crypto/atom.xml" rel="self"/>
+  <link href="http://blog.jeffnuss.com/"/>
+  <updated>2014-01-30T02:06:03-07:00</updated>
+  <id>http://blog.jeffnuss.com/</id>
   <author>
     <name><![CDATA[Jeff Nuss]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Why Factoring Huge Numbers Is a Big Deal]]></title>
-    <link href="http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/"/>
+    <link href="http://blog.jeffnuss.com/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/"/>
     <updated>2014-01-30T01:17:26-07:00</updated>
-    <id>http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal</id>
+    <id>http://blog.jeffnuss.com/2014/01/30/why-factoring-huge-numbers-is-a-big-deal</id>
     <content type="html"><![CDATA[<p>A few months ago, there was a <a href="https://news.ycombinator.com/item?id=6506120">post on hacker news</a> about the fact that <a href="https://en.wikipedia.org/wiki/RSA_numbers#RSA-210">RSA-210</a> had been factored. I&rsquo;ve always been interested in crypto and have a basic understanding of some of the concepts, but I wanted to take a deeper dive into why the ability to do <a href="http://en.wikipedia.org/wiki/Prime_factorization">prime factorization</a> of really big numbers is a big deal, especially when those numbers are <a href="https://en.wikipedia.org/wiki/Semiprimes">semiprimes</a> or numbers that are the product of 2 primes.</p>
 
 <p>For this post, I&rsquo;m going to focus on <a href="https://en.wikipedia.org/wiki/RSA_(algorithm)">RSA</a> because it&rsquo;s <a href="https://developer.mozilla.org/en-US/docs/Introduction_to_Public-Key_Cryptography#Public-Key_Encryption">the most commonly used implementation of public-key encryption</a> and it&rsquo;s used in several different applications such as SSL/TLS and SSH. Also, the algorithm is actually pretty simple so you can do an example that very clearly illustrates why factoring large semiprimes is important. Know that I&rsquo;m not a cryptographer so please leave a comment if I&rsquo;ve gotten something wrong.</p>
