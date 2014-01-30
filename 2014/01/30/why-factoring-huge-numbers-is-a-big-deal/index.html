@@ -4,7 +4,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Jeff's Blog</title>
+  <title>Why Factoring Huge Numbers Is a Big Deal - Jeff's Blog</title>
   <meta name="author" content="Jeff Nuss">
 
   
@@ -16,7 +16,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://jeffnuss.github.io">
+  <link rel="canonical" href="http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="Jeff's Blog" type="application/atom+xml">
 
@@ -92,12 +92,8 @@
         <div id="content">
           <div class="row">
   <div class="page-content col-md-9">
-    <div class="blog-index">
+    <article class="hentry" role="article">
       
-      
-      
-        <article class="post">
-          
   <header class="page-header">
     
       <p class="meta text-muted text-uppercase">
@@ -116,18 +112,21 @@
 
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-30T01:17:26-07:00" pubdate data-updated="true">Jan 30<span>th</span>, 2014</time>
         
-           | <a href="/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/#disqus_thread"
-             data-disqus-identifier="http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/">Comments</a>
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://jeffnuss.github.io">Comments</a>
         
       </p>
     
     
-      <h1 class="entry-title"><a href="/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/">Why Factoring Huge Numbers Is a Big Deal</a></h1>
+    <h1 class="entry-title">
+        Why Factoring Huge Numbers Is a Big Deal
+        
+    </h1>
     
   </header>
 
 
-  <div class="entry-content clearfix"><p>A few months ago, there was a <a href="https://news.ycombinator.com/item?id=6506120">post on hacker news</a> about the fact that <a href="https://en.wikipedia.org/wiki/RSA_numbers#RSA-210">RSA-210</a> had been factored. I&rsquo;ve always been interested in crypto and have a basic understanding of some of the concepts, but I wanted to take a deeper dive into why the ability to do <a href="http://en.wikipedia.org/wiki/Prime_factorization">prime factorization</a> of really big numbers is a big deal, especially when those numbers are <a href="https://en.wikipedia.org/wiki/Semiprimes">semiprimes</a> or numbers that are the product of 2 primes.</p>
+<div class="entry-content clearfix"><p>A few months ago, there was a <a href="https://news.ycombinator.com/item?id=6506120">post on hacker news</a> about the fact that <a href="https://en.wikipedia.org/wiki/RSA_numbers#RSA-210">RSA-210</a> had been factored. I&rsquo;ve always been interested in crypto and have a basic understanding of some of the concepts, but I wanted to take a deeper dive into why the ability to do <a href="http://en.wikipedia.org/wiki/Prime_factorization">prime factorization</a> of really big numbers is a big deal, especially when those numbers are <a href="https://en.wikipedia.org/wiki/Semiprimes">semiprimes</a> or numbers that are the product of 2 primes.</p>
 
 <p>For this post, I&rsquo;m going to focus on <a href="https://en.wikipedia.org/wiki/RSA_(algorithm)">RSA</a> because it&rsquo;s <a href="https://developer.mozilla.org/en-US/docs/Introduction_to_Public-Key_Cryptography#Public-Key_Encryption">the most commonly used implementation of public-key encryption</a> and it&rsquo;s used in several different applications such as SSL/TLS and SSH. Also, the algorithm is actually pretty simple so you can do an example that very clearly illustrates why factoring large semiprimes is important. Know that I&rsquo;m not a cryptographer so please leave a comment if I&rsquo;ve gotten something wrong.</p>
 
@@ -201,36 +200,73 @@
 
 <p>So there you have it. Now you know what all the fuss is about when people talk about factoring huge numbers and quantum computers. And you know that once we have quantum computers, you&rsquo;ll need to find a new way to securely upload your cat photos.</p>
 </div>
+
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard">Posted by <span class="fn">Jeff Nuss</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-01-30T01:17:26-07:00" pubdate data-updated="true">Jan 30<span>th</span>, 2014</time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/categories/crypto/'>crypto</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/" data-via="nussj" data-counturl="http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/" >Tweet</a>
   
   
+  
+</div>
 
-
-        </article>
-      
-    </div>
-
-    <ul class="pager">
-      
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
-      
-      <li><a href="/blog/archives">Blog Archives</a></li>
-      
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      
-    </ul>
+        
+        
+      </footer>
+    </article>
+    
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+      </section>
+    
   </div>
 
   
-    <aside class="sidebar col-md-3">
-      
-        <section class="panel panel-default">
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Recent Posts</h3>
   </div>
   
   <div id="recent_posts" class="list-group">
     
-    <a class="list-group-item " href="/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/">Why Factoring Huge Numbers Is a Big Deal</a>
+    <a class="list-group-item active" href="/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/">Why Factoring Huge Numbers Is a Big Deal</a>
     
   </div>
 </section>
@@ -240,7 +276,7 @@
       <h3 class="panel-title">GitHub Repos</h3>
   </div>
   <div class="list-group" id="gh_repos">
-    <p class="loading">Status updating&#8230;</p>
+    <p class="loading">Status updating...</p>
   </div>
   
     <div class="gh-profile-link pull-right text-muted">
@@ -269,8 +305,8 @@
 </section>
 
 
-      
-    </aside>
+    
+  </aside>
   
 </div>
 
@@ -297,7 +333,10 @@
       var disqus_shortname = 'jnuss';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/';
+        var disqus_url = 'http://jeffnuss.github.io/2014/01/30/why-factoring-huge-numbers-is-a-big-deal/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;

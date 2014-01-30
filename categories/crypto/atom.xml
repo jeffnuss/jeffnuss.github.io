@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jeff's Blog]]></title>
-  <link href="http://jeffnuss.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: crypto | Jeff's Blog]]></title>
+  <link href="http://jeffnuss.github.io/categories/crypto/atom.xml" rel="self"/>
   <link href="http://jeffnuss.github.io/"/>
   <updated>2014-01-30T01:50:05-07:00</updated>
   <id>http://jeffnuss.github.io/</id>
